@@ -1,0 +1,11 @@
+a1=int(input('Enter the a value : '))
+a2=int(input('Enter the b value : '))
+c=a1-a2
+print(c)
+
+sample output:
+Enter the  a value : 54
+Enter the  b value : 53
+2
+
+
