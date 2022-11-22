@@ -1,0 +1,12 @@
+#Write a program to read students data and display it (sno, name, gender, group, address, phone
+Sno=int(input('Enter student no:'))
+Name=input('Enter Student Name:')
+Gender=input('Enter Gender:')
+Group=input('Enter Group Name:')
+Address=input('Enter Address:')
+Phone=int(input('Enter Mobile Number:'))
+print('\nStudent no:',Sno)
+print('Student Name:',Name)
+print('Gender:',Gender)
+print('Student Address:',Address)
+print('Student Mobile Number:',Phone)
