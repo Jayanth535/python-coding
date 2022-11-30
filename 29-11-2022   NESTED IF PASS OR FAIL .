@@ -1,0 +1,22 @@
+sno=1
+sname='jayanth'
+group='mpcs'
+
+s1=int(input('enter s1 marks:'))
+s2=int(input('enter s2 marks:'))
+s3=int(input('enter s3 marks:'))
+
+if s1>=35:
+    if s2>=35:
+        if s3>=35:
+           print('student pass')
+
+else:
+ print('student fail')
+ 
+ OUTPUT:
+ enter s1 marks:35
+ enter s2 marks:45
+ enter s3 marks:32
+ 
+ student fail
