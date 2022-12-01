@@ -1,0 +1,55 @@
+crice=int(input('enter rice cost:'))
+csugar=int(input('enter sugar cost:'))
+cdal=int(input('enter dal cost:'))
+csalt=int(input('enter salt cost:'))
+coil=int(input('enter oil cost:'))
+
+cphno=int(input('enter cphno:'))
+cname=input('enter cname:')
+caddress=input('enter caddress:')
+
+qrice=int(input('enter rice quantity:'))
+qsugar=int(input('enter sugar quantity:'))
+qdal=int(input('enter dal quantity:'))
+qsalt=int(input('enter salt quantity:'))
+qoil=int(input('enter oil quantity:'))
+
+bill=(crice*qrice)+(csugar*qsugar)+(cdal*qdal)+(csalt*qsalt)+(coil*qoil)
+
+if bill>3000:
+  tax=bill*5/100
+ 
+elif bill>2000:
+  tax=bill*7/100
+
+elif bill>1000:
+  tax=bill*10/100
+  
+elif bill>500:
+  tax=bill*15/100
+
+else:
+    tax=100
+
+
+print('bill',bill)
+
+print('tax',tax)
+
+OUTPUT:
+
+enter rice cost:50
+enter sugar cost:40
+enter dal cost:30
+enter salt cost:20
+enter oil cost:100
+enter cphno:8247663749
+enter cname:naresh
+enter caddress:eluru
+enter rice quantity:2
+enter sugar quantity:2
+enter dal quantity:3
+enter salt quantity:1
+enter oil quantity:5
+bill 790
+tax 118.5
