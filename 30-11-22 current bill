@@ -1,0 +1,23 @@
+vil=input('village name:')
+cname=input('costumer name:')
+sno=int(input('enter service no:'))
+
+uc=int(input('using charges:'))
+cc=int(input('customer charges:'))
+lf=int(input('late fee:'))
+ot=int(input('others:'))
+
+currentbill=uc+cc+lf+ot
+
+print('currentbill:',currentbill)
+
+OUTPUT:
+
+village name:eluru
+costumer name:jayanth
+enter service no:12335324
+using charges:600
+customer charges:40
+late fee:100
+others:-40
+currentbill: 700
