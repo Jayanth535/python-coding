@@ -1,0 +1,43 @@
+crice=int(input('cost of rice:'))
+csugar=int(input('cost of sugar:'))
+cdal=int(input('cost of dal:'))
+csalt=int(input('cost of salt:'))
+coil=int(input('cost of oil:'))
+
+cphno=int(input('enter phone no:'))
+cname=input('enter name:')
+cadd=input('enter address:')
+
+bill=crice+csugar+cdal+csalt+coil
+
+coupon=input('enter coupon:')
+if coupon=='diwali':
+    
+ if bill>5000:
+    dis=bill*10/100
+    
+elif 5000>bill>3000:
+    dis=bill*6/100
+    
+elif 3000>bill>1000:
+    dis=bill*4/100
+    
+else:
+    dis=0
+    
+if coupon=='christmas':
+
+ if bill>3000:
+     dis=bill*20/100
+     
+ elif 3000>bill>2000:
+     dis=bill*10/100
+     
+ elif 2000>bill>1000:
+      dis=bill*5/100
+ else:
+     dis=0
+
+    
+print('bill',bill)
+print('dis',dis)
